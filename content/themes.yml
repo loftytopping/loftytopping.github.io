@@ -1,0 +1,42 @@
+# Areas of work shown on the home page, in this order. Each has a title, a short description and optional links.
+# Keep this broad; named partners and bodies belong in content/cv.yml.
+
+themes:
+  - title: AI systems for environmental science
+    text: >
+      Language-model and agentic tools that help people find, analyse and reason about environmental
+      data, with attention to evaluation, sustainability and keeping people in the loop.
+
+  - title: Machine learning and emulation
+    text: >
+      Emulators that stand in for expensive process models, generative models for high-resolution
+      air quality, and deep learning for gap-filling and forecasting, run at scale on national
+      computing facilities and with industry partners.
+
+  - title: Urban data and digital twins
+    text: >
+      Urban observatories, open data platforms and digital twins of the urban environment, and turning
+      monitoring into interventions, including indoor environments through a university spin-out I co-founded.
+
+  - title: Sensing and health
+    text: >
+      Getting more from environmental instruments than they were designed to give: machine learning
+      for real-time bioaerosol and pollen detection, personal exposure, and links to health outcomes.
+
+  - title: Atmospheric process modelling
+    text: >
+      Where my research began: how aerosol particles take up water, partition organic compounds and
+      change over time, captured in open-source models and property prediction tools used well beyond
+      Manchester.
+    links:
+      - label: UManSysProp
+        url: https://github.com/loftytopping/UManSysProp_public
+      - label: PyBox
+        url: https://github.com/loftytopping/PyBOX
+      - label: Aerosol modelling book
+        url: https://onlinelibrary.wiley.com/doi/book/10.1002/9781119625728
+
+  - title: Strategy, advice and teaching
+    text: >
+      Advising government and research councils on data and AI, leading digital research across the
+      University through Digital Worlds, and teaching programming, data science and AI to environmental scientists.

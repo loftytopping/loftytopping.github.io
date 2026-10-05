@@ -1,0 +1,30 @@
+# Coverage of your work: news, blogs, case studies, podcasts. Newest first is not required; the build sorts by date.
+# Fields: title, outlet, date (YYYY-MM-DD), url, type (News, Blog, Case study, Podcast, Video...), note (optional)
+
+mentions:
+  - title: University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK
+    outlet: NVIDIA Blog
+    date: 2026-09-15
+    type: Feature
+    url: https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/
+    note: High-resolution AI air quality forecasting trained on Isambard-AI, with interviews.
+
+  - title: Manchester Physicists Use AI To Predict UK Air Quality
+    outlet: Quantum Zeitgeist
+    date: 2026-09-18
+    type: News
+    url: https://quantumzeitgeist.com/nvidia-manchester-physicists-use-air-quality/
+
+  - title: One year on, UK's most powerful AI supercomputer is driving breakthroughs across the UK
+    outlet: University of Bristol
+    date: 2026-07-27
+    type: News
+    url: https://www.bristol.ac.uk/news/2026/july/isambard-ai-first-anniversary.html
+    note: Features the Manchester air pollution forecasting work as an Isambard-AI highlight.
+
+  - title: "The AI Makers: NVIDIA Partners in UK Advance Physical and Agentic AI, Robotics, Life Sciences and More"
+    outlet: NVIDIA Blog
+    date: 2025-09-16
+    type: Feature
+    url: https://blogs.nvidia.com/blog/uk-partner-ecosystem-ai-makers/
+    note: Highlights PolluGen, the high-resolution pollution model built with NVIDIA Earth-2.

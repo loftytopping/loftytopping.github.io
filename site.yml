@@ -1,0 +1,48 @@
+# Site-wide settings. Edit this file to change your name, roles, intro and links.
+
+name: David Topping
+short_name: DT
+url: https://loftytopping.github.io   # change if you move to a custom domain
+email: david.topping@manchester.ac.uk
+orcid: 0000-0001-8247-9649
+
+# A role can be plain text, or text plus a link.
+roles:
+  - Professor of the Digital Environment, University of Manchester
+  - text: Director of Digital Worlds, Digital Futures
+    url: https://www.digitalfutures.manchester.ac.uk/what_we_do/themes/digitalworlds/
+
+# Your photo: save a square image (at least 400 x 400 pixels) as static/profile.jpeg (or change the path below). profile-crop.jpg is a tighter crop of it.
+# It appears beside your name on the home and CV pages. Leave the file out and the site simply shows no photo.
+photo: static/profile-crop.jpg
+
+# One or two short paragraphs for the home page. Markdown is allowed.
+intro: |
+  I build computational models and digital tools, and I am interested in how a broad range of digital
+  technologies, including machine learning, AI systems, sensor networks, data infrastructure and
+  high-performance computing, can change the way we understand and manage the environment.
+
+  My background is in atmospheric science. I trained as a physicist and spent the first part of my
+  career modelling aerosol particles, and that grounding in process models and real measurements still
+  shapes how I approach new problems. My work now spans air quality, urban environments, health and
+  environmental data more widely, and I work with government, research councils and industry on how
+  these technologies are adopted in practice.
+
+  I am based in the Department of Earth and Environmental Sciences at the University of Manchester.
+
+# Links shown on the home page and in the footer. Remove any you don't want; order is kept.
+links:
+  - label: ORCID
+    url: https://orcid.org/0000-0001-8247-9649
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=pCIpAvIAAAAJ
+  - label: GitHub
+    url: https://github.com/loftytopping
+  - label: Research Explorer
+    url: https://research.manchester.ac.uk/en/persons/david.topping
+  - label: Research group
+    url: https://environmental-ai-systems.github.io
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/davetopping/
+  # - label: Bluesky
+  #   url: https://bsky.app/profile/...

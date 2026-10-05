@@ -1,0 +1,41 @@
+# Where you will be: conferences, talks, visits, workshops. This is the one file to edit.
+# Each entry is sorted automatically into Upcoming or Past. While an event is on (between date and end_date),
+# it is marked "Happening now" and a line under your name on the home page says "Now at ...".
+# For a one-day event leave out end_date.
+# Fields: title, date (YYYY-MM-DD), end_date (optional), type, location, role (optional), url (optional), note (optional)
+#
+# Example:
+#   - title: EGU General Assembly 2027
+#     date: 2027-04-25
+#     end_date: 2027-04-30
+#     type: Conference
+#     location: Vienna, Austria
+#     role: Session co-convener, AS3.1 Aerosol Chemistry and Microphysics
+
+events:
+  - title: Annual Aerosol Science Conference 2026
+    date: 2026-11-23
+    end_date: 2026-11-24
+    type: Conference
+    location: Royal Society of Chemistry, London
+    url: https://aerosol-soc.com/events/annual-aerosol-science-conference-2026/
+    note: The Aerosol Society's 40th anniversary conference.
+
+  - title: EGU General Assembly 2027
+    date: 2027-04-04
+    end_date: 2027-04-09
+    type: Conference
+    location: Austria Center Vienna, and online
+    url: https://www.egu27.eu/
+
+  - title: "Beyond the Query: AI-enabled Environmental Science and Data Discovery"
+    date: 2026-07-06
+    type: Invited talk
+    location: University of Birmingham
+    role: Institute for Sustainability & Climate Action seminar series
+
+  - title: Digital Solutions Hub
+    date: 2026-04-01   # exact day not on the CV; correct if you know it
+    type: Invited talk
+    location: UK Environment Agency (online)
+    role: Science Profession seminar series

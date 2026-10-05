@@ -1,0 +1,348 @@
+# Your CV. Taken from CV_David_Topping_Academic_2026 (October 2026).
+# The CV page on the site is a summary: sections marked "web: false" are kept here (and go into the
+# downloadable PDF) but are not shown on the page. "pdf_limit" caps how many entries the PDF shows.
+# Each entry can have: when, what, where, note, url. Markdown works in what/where/note.
+
+# The downloadable CV. Replace this file with your own PDF any time; keep the same name or update it here.
+pdf: static/David_Topping_CV.pdf
+
+# Short facts shown near the top of the CV page.
+highlights:
+  - PI or Co-I on research grants totalling more than £30M from UKRI, government and industry
+  - Main supervisor of 11 PhD students and co-supervisor of 6
+  - More than 130 peer-reviewed journal articles and software papers
+  - Original author of open-source atmospheric modelling tools used on every major continent
+  - Co-founder and Chief Technology Officer of a University of Manchester spin-out
+  - Advisor to UK government and research councils on data and AI in environmental science
+# The full publication list lives in content/publications.yml.
+
+summary: |
+  I build computational models and digital tools for environmental science, with roots in atmospheric
+  and aerosol science and a focus today on machine learning, AI systems, sensing and data infrastructure.
+  I have published in journals including Nature, Nature Geoscience and Nature Communications, been PI or
+  Co-I on grants totalling more than £30M, edit for two international journals, and co-founded a
+  university spin-out. I advise UK government and research councils, including NERC, DEFRA and UKHSA,
+  on the use of AI and data science in environmental science, and work with industry partners including NVIDIA.
+
+sections:
+  - heading: Academic appointments
+    entries:
+      - when: 2025-present
+        what: Director of Digital Worlds
+        where: Digital Futures, University of Manchester
+        url: https://www.digitalfutures.manchester.ac.uk/what_we_do/themes/digitalworlds/
+        note: Leading a team across all three faculties to develop ambition and activity across the ecology of digital tools.
+      - when: 2024-present
+        what: Adjunct Professor
+        where: Zhejiang University, China
+      - when: 2021-present
+        what: Professor of the Digital Environment
+        where: University of Manchester
+      - when: 2018-2024
+        what: Fellow
+        where: The Alan Turing Institute
+      - when: 2018-2021
+        what: Reader
+        where: University of Manchester
+      - when: 2017-2018
+        what: Senior Lecturer
+        where: Centre for Atmospheric Science, School of Earth and Environmental Sciences, University of Manchester
+      - when: 2013-2017
+        what: Senior Research Fellow
+        where: Centre for Atmospheric Science, University of Manchester
+        note: Funded by the National Centre for Atmospheric Science (NCAS).
+
+  - heading: Advisory and external roles
+    entries:
+      - when: 2025-present
+        what: Honorary Academic
+        where: UK Health Security Agency
+        note: AI and bioaerosol detection.
+      - when: 2024-present
+        what: International Advisor
+        where: Hong Kong Baptist University, Digital Solutions programme
+      - when: 2023-2028
+        what: Member, Science & Innovation Committee
+        where: Natural Environment Research Council (NERC)
+        note: One of around 15 expert positions steering strategic funding for UK environmental science. Co-author of NERC's first Digital Strategy (2021-2030).
+      - when: 2022-present
+        what: Member, Air Quality Expert Group
+        where: DEFRA
+        note: Expert input on AI and regulation; author of DEFRA's first AI scoping note.
+      - when: 2022-present
+        what: Member, Programme Executive Group for Digital Solutions
+        where: NERC
+      - when: 2022-present
+        what: Co-founding Director and Chief Technology Officer
+        where: Urban360, a University of Manchester spin-out
+
+  - heading: Education
+    entries:
+      - when: 2005
+        what: PhD, Modelling the hygroscopic properties of atmospheric aerosol particles
+        where: UMIST. Supervisor Professor Hugh Coe.
+      - when: 2001
+        what: BSc (Hons) Pure Physics, First Class
+        where: UMIST
+
+  - heading: Journal editorships
+    entries:
+      - when: 2025-present
+        what: Deputy Editor-in-Chief
+        where: Big Data and Earth System (KeAi / Elsevier)
+      - when: 2018-2025
+        what: Topical Editor
+        where: Geoscientific Model Development (Copernicus)
+      - when: 2012-2021
+        what: Co-editor
+        where: Atmospheric Chemistry and Physics (Copernicus)
+
+  - heading: Open-source software
+    entries:
+      - what: UManSysProp
+        where: Original author and developer. Informatics suite for molecular property prediction and aerosol thermodynamics, used by more than 6,800 unique users on every major continent.
+        url: https://github.com/loftytopping/UManSysProp_public
+      - what: PyBox
+        where: Original author and developer. Automated atmospheric chemistry box-model generator.
+        url: https://github.com/loftytopping/PyBOX
+      - what: STRAPS
+        where: Original author and developer. Prediction of aerosol mass spectra from molecular structure.
+      - what: JlBox
+        where: Co-developer. High-performance Julia box model of atmospheric chemistry and physics.
+
+  - heading: Selected research funding
+    web: false
+    pdf_limit: 7
+    intro: PI or Co-I on competitively awarded grants exceeding £30M in total.
+    entries:
+      - when: 2024-2032
+        what: Aerosol & Droplet Science CDT
+        where: EPSRC, £1.10M. Local PI.
+      - when: 2024-2029
+        what: Centre for Research in Biodetection Technologies (CRBT, E3)
+        where: Research England, £1.08M. Local PI.
+      - when: 2020-2027
+        what: Digital Solutions Platforms and Toolkits
+        where: NERC, £5.78M. Co-I.
+      - when: 2024-2025
+        what: "Talk Data to Me! LLMs for federated data discoverability"
+        where: ESRC, £133k. Co-I.
+      - when: 2021-2023
+        what: Urban Observatories Open Data
+        where: Department for Transport, £138k. PI.
+      - when: 2021-2022
+        what: Towards Digital Twins of the Urban Environment in a net-zero world
+        where: EPSRC, £216k. PI.
+      - when: 2020-2024
+        what: Southern Ocean Clouds (SOC)
+        where: NERC, £493k. Local PI.
+      - when: 2020-2022
+        what: Data Integration Model for Exposure (DIMEX-UK)
+        where: Met Office, £188k. PI.
+      - when: 2019-2022
+        what: Integrated Research Observation System for Clean Air (OSCA)
+        where: NERC, £465k. Co-I.
+      - when: 2019-2021
+        what: UKCRIC Urban Observatory
+        where: EPSRC, £1.05M. Co-I.
+      - when: 2018-2021
+        what: BIOARC, UK Airborne Bioaerosol Climatology
+        where: NERC, £603k. Co-I.
+      - when: 2016-2020
+        what: Cleaner air for Delhi
+        where: NERC, £542k. Co-I.
+      - when: 2015-2018
+        what: Diffusion and Equilibration in Viscous Atmospheric Aerosol
+        where: NERC, £183k. PI.
+      - when: 2013-2016
+        what: Quantifying thermodynamics and kinetics of gas-to-particle conversion
+        where: NERC, £427k. PI.
+      - when: 2012-2015
+        what: Improvement of property prediction for SOA (AWARD)
+        where: NERC, £346k. PI.
+
+  - heading: Selected invited talks
+    web: false
+    pdf_limit: 3
+    entries:
+      - when: 2026
+        what: "Beyond the Query: AI-enabled Environmental Science and Data Discovery"
+        where: University of Birmingham, Institute for Sustainability & Climate Action seminar series
+      - when: 2026
+        what: Digital Solutions Hub
+        where: UK Environment Agency Science Profession seminars
+      - when: 2024
+        what: AI and the Environment (plenary)
+        where: UKEOF 2024 conference, UK Centre for Ecology and Hydrology
+      - when: 2024
+        what: AI, the public sector and the environment
+        where: Government Public Sector Data & AI Summit
+      - when: 2023
+        what: AI and the Environment (plenary)
+        where: NERC Digital Environment programme
+      - when: 2022
+        what: Data-driven approaches towards a net-zero society
+        where: AI UK 2022, Alan Turing Institute green stage
+      - when: 2022
+        what: "Digital Twins of Urban Air Quality: Opportunities and Challenges"
+        where: Royal Meteorological Society
+      - when: 2019
+        what: "Machine Learning in Aerosol Science: Something Old, Something New (plenary)"
+        where: European Aerosol Conference
+
+  - heading: Conference leadership
+    web: false
+    pdf_limit: 2
+    entries:
+      - when: 2019, 2021
+        what: Co-chair (2019) and Chair (2021)
+        where: International Aerosol Modelling Algorithms Conference (IAMA), UC Davis
+      - when: 2018
+        what: Co-founder of the first Research Software Engineers working group in the European Geosciences Union
+      - when: 2016-present
+        what: Session co-convener, AS3.1 Aerosol Chemistry and Microphysics
+        where: EGU General Assembly, Vienna
+      - what: Session co-convener, ESSI2.7 Future Shock
+        where: EGU, with the UK Met Office and NASA
+      - when: 2016
+        what: Founding organising committee, EMiT 2016
+        where: Barcelona Supercomputing Centre
+
+  - heading: Leadership and management
+    web: false
+    pdf_limit: 3
+    entries:
+      - when: 2025-2028
+        what: Director of Digital Worlds, Digital Futures
+        where: University of Manchester
+        url: https://www.digitalfutures.manchester.ac.uk/what_we_do/themes/digitalworlds/
+      - when: 2022-2026
+        what: Chair, Research IT Academic Advisory Group
+        where: University of Manchester
+      - when: 2022-2025
+        what: e-Research lead
+        where: University of Manchester
+      - when: 2023-2025
+        what: Joint lead, Cities and Environment theme
+        where: Digital Futures, University of Manchester
+      - when: 2020-2024
+        what: Co-lead, Special Interest Group on Environment and Sustainability
+        where: The Alan Turing Institute
+      - when: 2019-2022
+        what: Co-lead, Manchester UKCRIC Urban Observatory
+        where: Part of a £140M government investment
+
+  - heading: Knowledge exchange
+    web: false
+    pdf_limit: 2
+    entries:
+      - when: 2025-present
+        what: NVIDIA
+        where: Collaborating with NVIDIA's Earth-2 team on generative AI for atmospheric science, following the Pollugen high-resolution air-quality work featured at the US-UK AI ecosystem event in London.
+      - when: 2025
+        what: DSIT and Isambard-AI
+        where: Demonstrated the value of the UK's national AI supercomputer for pollution modelling, released as a public case study.
+      - when: 2019-present
+        what: Co-lead, Manchester Urban Observatory
+        where: Environmental and mobility monitoring across communities, and co-delivery of an open-data platform for the city.
+      # Not shown publicly. Uncomment if you are happy for these to be on the site.
+      # - when: 2026-2027
+      #   what: Anthropic
+      #   where: Convening international aerosol-science experts to develop benchmark Q&A sets for testing and optimising large language models.
+      # - when: 2026-2027
+      #   what: DEFRA Chief Scientist Fund
+      #   where: Demonstrating LLM-enabled search, discovery and integration of DEFRA data assets.
+
+  - heading: Teaching
+    pdf_limit: 3
+    entries:
+      - what: Natural Scientist's Toolkit
+        where: Course lead for the programming component (sole lecturer) and the maths and physics component, around 140 first-year students.
+      - what: Short courses and summer schools
+        where: Programming, machine learning, language models and aerosol modelling for doctoral and professional audiences.
+        url: teaching.html
+      - what: Data Science for Air Quality
+        where: Course lead, MSc Pollution and Environmental Control.
+      - what: Environmental Analytics pathway, MSc Data Science
+        where: Initiated and developed the pathway, 2019-present.
+      - what: Aerosol modelling and data analysis training
+        where: Created and delivers the annual module for the EPSRC Aerosol & Droplet CDT, 2019-present.
+
+  - heading: Research students
+    web: false
+    pdf_limit: 2
+    entries:
+      - what: Main supervisor
+        where: Pauline Nyakairu Karega, Hao Zhang, Samuel Hyman, Yuchen Zeng, Ximeng Kang, Congyu Zhao, Dinara Zhunissova, Maximillian Moss, Petroc Shelley, Simon Ruske, Elizabeth Forde.
+      - what: Co-supervisor
+        where: Jessica Slater, Kathryn Fowler, Douglas Morrison, Emily Matthews, Caroline Dang, Simon O'Meara.
+      - what: External examiner
+        where: PhDs at Cambridge, Birmingham, Lancaster, Eastern Finland, York and Bristol. University of York Data Science MSc, 2023-2026.
+
+  - heading: Outreach
+    web: false
+    pdf_limit: 0
+    entries:
+      - what: Brazil Breathing
+        where: Co-lead of an EPSRC project with Alan Turing Institute support that released a public air-quality app.
+      - what: Museums and public events
+        where: "Founding member of iTech: design your future with STEM UK and the Museum of Science and Industry (2014); code-breaking and computing events with MOSI and Bletchley Park (2016); Manchester Museum Science Uncovered (2018)."
+
+books:
+  - authors: Topping, D. and Bane, M. (Eds.)
+    year: 2022
+    title: "Introduction to Aerosol Modelling: From Theory to Code"
+    venue: Wiley. ISBN 978-1-119-62565-0
+    doi: 10.1002/9781119625728
+  - authors: Topping, D.
+    year: 2009
+    title: Thermodynamics of aqueous systems
+    venue: In I. Colbeck (Ed.), Environmental Chemistry of Aerosols. Blackwell
+    doi: 10.1002/9781444305388.ch6
+
+selected_publications:
+  - authors: Zhang, H., Crawford, I. and Topping, D. et al.
+    year: 2025
+    title: Data-driven detection of nocturnal pollen fragmentation triggered by high humidity in an urban environment
+    venue: Environmental Science & Technology
+    doi: 10.1021/acs.est.4c13905
+  - authors: Jay, C., Yu, Y., Crawford, I. ... Topping, D. et al.
+    year: 2024
+    title: Prioritize environmental sustainability in use of AI and data science methods
+    venue: Nature Geoscience
+    doi: 10.1038/s41561-023-01369-y
+  - authors: Gledson, A., Lowe, D., Reani, M., Topping, D. et al.
+    year: 2023
+    title: A comparison of experience-sampled hay fever symptom severity across rural and urban areas of the UK
+    venue: Scientific Reports 13, 3060
+    doi: 10.1038/s41598-023-30027-x
+  - authors: Topping, D., Bannan, T. J., Coe, H., Evans, J. et al.
+    year: 2021
+    title: "Digital twins of urban air quality: opportunities and challenges"
+    venue: Frontiers in Sustainable Cities 3, 786563
+    doi: 10.3389/frsc.2021.786563
+  - authors: Huang, L. and Topping, D.
+    year: 2020
+    title: "JlBox v1.0: a Julia-based mixed-phase atmospheric chemistry box model"
+    venue: Geoscientific Model Development
+    doi: 10.5194/gmd-2020-344
+  - authors: McFiggans, G., Mentel, T. F., Wildt, J. ... Topping, D. and Kiendler-Scharr, A.
+    year: 2019
+    title: Secondary organic aerosol reduced by mixture of atmospheric vapours
+    venue: Nature 565, 587-593
+    doi: 10.1038/s41586-018-0871-y
+  - authors: Topping, D. et al.
+    year: 2018
+    title: "PyBox: an automated box-model generator for atmospheric chemistry and aerosol simulations"
+    venue: Journal of Open Source Software 3(28), 755
+    doi: 10.21105/joss.00755
+  - authors: Ruske, S., Topping, D. O., Foot, V. E., Morse, A. P. and Gallagher, M. W.
+    year: 2018
+    title: Machine learning for improved data analysis of biological aerosol using the WIBS
+    venue: Atmospheric Measurement Techniques 11, 6203-6230
+    doi: 10.5194/amt-11-6203-2018
+  - authors: Reid, J. P. et al.
+    year: 2018
+    title: The viscosity of atmospherically relevant organic particles
+    venue: Nature Communications 9
+    doi: 10.1038/s41467-018-03027-z
